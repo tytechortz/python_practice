@@ -1,14 +1,5 @@
-i = 1
-
-while i < 101:
-    if i % 5 == 0 and i % 3 == 0:
-        print('FizzBuzz')
-    elif i % 5 == 0:
-        print('Fizz')
-    elif i % 3 == 0:
-        print('Buzz')
-    else:
-        print(i)
-
-    i += 1
+x = 4
+y = x + 1
+x = 2
+print(x,y)
 
