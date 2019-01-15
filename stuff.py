@@ -1,4 +1,14 @@
-i = 0
-while i < 4:
-    print('hello world!')
+i = 1
+
+while i < 101:
+    if i % 5 == 0 and i % 3 == 0:
+        print('FizzBuzz')
+    elif i % 5 == 0:
+        print('Fizz')
+    elif i % 3 == 0:
+        print('Buzz')
+    else:
+        print(i)
+
     i += 1
+
