@@ -1,4 +1,7 @@
-def count_digits(x):
-    y = str(x)
-    print(len(y))
-count_digits(1234512351345)
+def istrcmp(x,y):
+    if x.lower == y.lower:
+        return True
+    else: 
+        return False
+
+print(istrcmp('acc','acc'))
