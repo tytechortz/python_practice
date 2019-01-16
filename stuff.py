@@ -1,9 +1,6 @@
-x = 1
-def f():
-    x = 2
-    y = x
-    
-    return x + y
-print(x)
-print(f())
-print(x)
+x = 2
+def f(a):
+    x = a * a
+    return x
+y = f(3)
+print(x, y)
