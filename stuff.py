@@ -1,7 +1,7 @@
 def istrcmp(x,y):
-    if x.lower == y.lower:
+    if x.upper() == y.upper():
         return True
     else: 
         return False
 
-print(istrcmp('acc','acc'))
+print(istrcmp('pytHon','Python'))
