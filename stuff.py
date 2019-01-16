@@ -1,3 +1,5 @@
-def square(x):
-    return x * x
-print(square(2*5))
+x = 1
+def f():
+    return x
+print(x)
+print(f())
